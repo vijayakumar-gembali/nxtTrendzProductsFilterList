@@ -1,0 +1,139 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.rating-list {
+  padding-left: 0px;
+}
+.rating-heading {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #12022f;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.rating-item {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.rating-img {
+  height: 20px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .rating-img {
+    height: 24px;
+  }
+}
+.and-up {
+  color: #64748b;
+  font-family: 'roboto';
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .and-up {
+    font-size: 18px;
+    margin-left: 14px;
+  }
+}
+
+/* Write your CSS here */
+.active-rating {
+  color: #0967d2;
+}
+.category-list {
+  padding-left: 0px;
+}
+.category-heading {
+  color: #12022f;
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.category-item {
+  list-style-type: none;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.category-name {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+@media screen and (min-width: 768px) {
+  .category-name {
+    font-size: 18px;
+  }
+}
+
+.active-category-name {
+  color: #0967d2;
+}
+.search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  flex-grow: 1;
+  font-weight: 700;
+  font-family: 'roboto';
+  color: #0f172a;
+  font-size: 14px;
+}
+.search-icon {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+.clear-button {
+  border: 1px solid #0967d2;
+  background-color: #0967d2;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'roboto';
+  font-size: 10px;
+  font-weight: 500;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .clear-button {
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 32px;
+  }
+}
